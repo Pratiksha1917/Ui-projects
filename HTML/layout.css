@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 80%;
+    min-height: 100vh;
+    border: 2px solid #000;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.main-header1
+{
+    width: 100%;
+    display: inline-flex;
+}
+.logo{
+    width: 48%;
+    background-color:#6E3826;
+    float: left;
+    height: 55px;
+    padding: 10px;
+    display: inline-flex;
+
+    
+}
+.logo .h1{
+    color: white;
+}
+.menu{
+    width: 51%;
+    background-color:#6E3826;
+    
+    float: right;
+    height:55px;
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: larger;
+    margin-left: 10px;
+   
+}
+.menu a{
+    padding: 10px;
+    text-decoration: none;
+    color:white;
+}
+.main-header2{
+    width: 100%;
+    min-height: 300px;
+/* }clearfix::after{
+    content:"";
+    clear:both;
+    display:both;
+}
+.col:nth-child(2){
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.col:nth-child(3){
+    margin-left: 10px;
+    margin-right: 10px;
+ 
+}
+.col:nth-child(1){
+    margin-left: 12px;
+}
+.col1{
+    width: 100%;
+    max-height: 120px;
+}
+
+ */
+
+.main-header2{
+    width: 100%;
+    min-height: 300px;
+    border: 3px solid #000;
+    
+}
+.row{
+    width: 100%;
+    min-height: 120px;
+    margin-top: 10px;
+    display: flex;
+    
+}
+.col{
+    
+    width: 23%;
+    height: 120px;
+    background-color:gray;
+    /* float:left; */
+ 
+}
